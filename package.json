@@ -1,0 +1,29 @@
+{
+  "name": "js-constructor",
+  "version": "1.0.0",
+  "description": "pure js site constructor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "serve": "webpack-dev-server --mode development"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "constructor"
+  ],
+  "author": "Dzmitry Dudov <513dragan@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "source-map-loader": "*",
+    "exports-loader": "^1.1.0",
+    "file-loader": "^6.1.0",
+    "html-webpack-plugin": "^4.4.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
